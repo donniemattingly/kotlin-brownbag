@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628de429-86d5-4d37-97c1-b400ec53f509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/KotlinbrownbagApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlinbrownbag.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlinbrownbag.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlinbrownbag.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlinbrownbag.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/Recipe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/KotlinbrownbagApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeType.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
