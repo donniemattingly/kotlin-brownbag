@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628de429-86d5-4d37-97c1-b400ec53f509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/Recipe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/Recipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeType.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/donniemattingly/kotlinbrownbag/RecipeRepository.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
