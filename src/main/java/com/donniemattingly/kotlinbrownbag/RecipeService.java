@@ -30,7 +30,7 @@ public class RecipeService {
   private Optional<Recipe> bestRecipe(boolean considerCalories) {
     List<Recipe> recipes = recipeRepository.getAllRecipes();
     Optional<Recipe> best = recipes.stream().max(Comparator.comparing(Recipe::getRating));
-    log.info("Found best recipe: " + Utils.nullSafeToString(best.orElse(null)));
+    log.info("Found best recipe: " + Utils.INSTANCE.nullSafeToString(best.orElse(null)));
     return best;
   }
 
