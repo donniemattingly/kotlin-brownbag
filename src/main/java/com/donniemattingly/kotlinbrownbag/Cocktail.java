@@ -2,10 +2,6 @@ package com.donniemattingly.kotlinbrownbag;
 
 import java.util.Objects;
 
-
-/*
-TODO: Show open / final by default w/ this class
- */
 public class Cocktail extends Recipe {
   private Double alcoholByVolume;
 

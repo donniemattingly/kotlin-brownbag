@@ -3,7 +3,6 @@ package com.donniemattingly.kotlinbrownbag;
 import java.util.List;
 import java.util.Objects;
 
-// TODO: data classes
 class Recipe {
   private String name;
   private String author;

@@ -10,7 +10,6 @@ import java.util.*;
 @Service
 public class RecipeService {
 
-  // TODO: show companion object here
   private final static Logger log = LoggerFactory.getLogger("RecipeService");
 
   private final RecipeRepository recipeRepository;
@@ -24,28 +23,18 @@ public class RecipeService {
     return Collections.emptyList();
   }
 
-  // TODO: Single Expression Function then
-  // TODO: Default Parameters
-  public Optional<Recipe> bestRecipe() {
+  Optional<Recipe> bestRecipe() {
     return this.bestRecipe(false);
   }
 
-  public Optional<Recipe> bestRecipe(boolean considerCalories) {
+  private Optional<Recipe> bestRecipe(boolean considerCalories) {
     List<Recipe> recipes = recipeRepository.getAllRecipes();
     Optional<Recipe> best = recipes.stream().max(Comparator.comparing(Recipe::getRating));
-
-    // TODO: string template
-    log.info("Found best recipe: " + best.toString());
+    log.info("Found best recipe: " + Utils.nullSafeToString(best.orElse(null)));
     return best;
   }
 
-
-  /**
-   * TODO: Show creating a class
-   * TODO: apply scope function
-   * TODO: named parameters
-   */
-  public Recipe getSampleRecipe() {
+  Recipe getSampleRecipe() {
     Recipe sample = new Recipe();
     sample.setAuthor("Sample Author");
     sample.setCalories(1000L);
@@ -56,9 +45,7 @@ public class RecipeService {
     return sample;
   }
 
-
-  // TODO: show the various fun, functional things here
-  public String mostCommonIngredient() {
+  String mostCommonIngredient() {
     return this.recipeRepository.getAllRecipes()
       .stream()
       .flatMap(recipe -> recipe.getIngredients().stream())

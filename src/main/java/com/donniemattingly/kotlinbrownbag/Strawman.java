@@ -1,8 +1,5 @@
 package com.donniemattingly.kotlinbrownbag;
 
-/*
- TODO Show object keyword
- */
 public class Strawman {
 
   private static Strawman instance = new Strawman();
